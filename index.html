@@ -26,3 +26,46 @@ var myGameArea = {
 }
   </body>
   </HTML>
+.Jump {
+    Animation: Jump 0.3s Linear;
+}
+
+@Keyframes Jump {
+    0% {
+        Top: 143px;
+        /*Distance From The Top Of The Parent Element*/
+    }
+    30% {
+        Top: 115px;
+    }
+    50% {
+        Top: 70px;
+    }
+    80% {
+        Top: 115px;
+    }
+    100% {
+        Top: 143px;
+    }
+}
+
+#Cactus {
+    Width: 20px;
+    Height: 40px;
+    Position: Relative;
+    Top: 91px;
+    Left: 580px;
+    /*Width Of Frame - Width Of Cactus*/
+    Background-Image: Url(Cactus.png);
+    Background-Size: 20px 40px;
+    Animation: Cactus-Block 1.2s Infinite Linear;
+}
+
+@Keyframes Cactus-Block {
+    0% {
+        Left: 600px;
+    }
+    100% {
+        Left: -20px;
+    }
+}
