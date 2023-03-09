@@ -3,24 +3,64 @@
     * {margin: 0; padding: 0;}
     <div id="wrap"> width :80%; margin: auto;}
 
-        /* NAV */
-nav {
-    position: relative;
-    display: inline-flex;
-    float: right;
-    flex: 1;
-    text-align: right;
-}
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
 
     </div>
 <head>
+    <style>
+        body {
+      background-color: lightgreen;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
+    #wrapper {width: 80%; 
+    margin: auto;
+    }
+    .column { width: 33.33%; float: left; margin: 10%;
+}
+@media only screen and (max-width: 400px) {
+.column { width: 100%; float: left;
+    margin: 0%;
+}
+}
+    </style>
+    <style> 
+        div {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          animation-name: example;
+          animation-duration: 4s;
+        }
+        
+        @keyframes example {
+          from {background-color: red;}
+          to {background-color: yellow;}
+        }
+        </style>
+    
+        </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewpoint" conent="width=device-width, initial-scale=1.0">
     <title>Docement</title>
     <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1>CSS Animation</h1>
+
+<div></div>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
     <h1>Sophia Nunn</h1>
     <h2>DSGN 360 Winter Quarter 2023</h2>
     <nav>
@@ -53,14 +93,7 @@ nav {
     <p>
         copyright nunns@wwu.edu
     </p>
-    /* FOOTER */
-ul#footer {
-    width: 100%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    padding-top: 0%;
-    text-align: center;
-}
+    <div class="columns col-3"> </div>
 
 </body>
 

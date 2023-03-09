@@ -1,14 +1,27 @@
 * {
-    font-family: 'times new roman', sans-serif;
-}
-
-* {
-    background-image: url("sky.gif");
+    font-family: 'Gloock', serif;
+     background-image: url("sky.gif");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 204);
 }
+
+ /* NAV */
+ nav {
+    position: relative;
+    display: inline-flex;
+    float: right;
+    flex: 1;
+    text-align: right;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
 
 h1 {
     color: rgb(255, 255, 255);
@@ -16,6 +29,7 @@ h1 {
     text-align: center;
     line-height: 60%;
     text-transform: uppercase;
+    text-decoration: dotted;
 }
 
 h4 {
