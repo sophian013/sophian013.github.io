@@ -25,7 +25,7 @@ img {
 	object-fit: cover;
 }
 p {
-	color: #9DF0F6;
+	color: #0c0f0f;
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -97,7 +97,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: rgb(23, 27, 81);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -129,7 +129,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.021);
+	color: rgba(254, 233, 0, 0.021);
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -442,7 +442,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px solid rgb(235, 77, 4);
 	z-index: -1;
 }
 /* End About Section */
@@ -560,8 +560,8 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: crimson;
-		font-weight: 500;
+		color: rgb(243, 61, 0);
+		font-weight: 600;
 	}
 }
 /* End Keyframes */
@@ -624,7 +624,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid rgb(228, 61, 1);
 	}
 	#about .col-right {
 		text-align: left;
