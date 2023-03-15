@@ -19,6 +19,7 @@ a {
 	align-items: center;
 	justify-content: center;
 }
+
 img {
 	height: 100%;
 	width: 100%;
@@ -33,7 +34,7 @@ p {
 	letter-spacing: 0.05rem;
 }
 .section-title {
-	font-size: 4rem;
+	font-size: 10rem;
 	font-weight: 300;
 	color: #FF482C;
 	margin-bottom: 10px;
@@ -42,13 +43,13 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: #9DF0F6;
+	color: #FF482C;
 }
 
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
+	color: rgb(20, 1, 1);
 	background-color: transparent;
 	border: 2px solid #9DF0F6;
 	font-size: 2rem;
@@ -82,7 +83,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: transparent;
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -92,7 +93,7 @@ p {
 	width: 100%;
 	height: 100%;
 	max-width: 1300px;
-	padding: 0 10px;
+	padding: 0 0px;
 }
 #header .nav-list ul {
 	list-style: none;
@@ -116,9 +117,9 @@ p {
 #header .nav-list ul a {
 	font-size: 2.5rem;
 	font-weight: 500;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.4rem;
 	text-decoration: none;
-	color: white;
+	color: rgb(58, 6, 6);
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -213,7 +214,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-image: url(img/Untitled\ design-4.png);
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -242,16 +243,7 @@ p {
 	animation: text_reveal_name 0.5s ease forwards;
 	animation-delay: 3s;
 }
-#hero h1 span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 0;
-	background-color: #9DF0F6;
-	animation: text_reveal_box 1s ease;
-	animation-delay: 0.5s;
-}
+
 #hero h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
@@ -291,7 +283,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(img/Untitled\ design-4.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -494,7 +486,7 @@ p {
 
 /* Footer */
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #6ce4d6 0%, #e95709 100%);
 }
 #footer .footer {
 	min-height: 200px;
@@ -624,7 +616,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid rgb(228, 61, 1);
+		border: 10px solid rgb(255, 255, 255);
 	}
 	#about .col-right {
 		text-align: left;
